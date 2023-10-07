@@ -1,0 +1,21 @@
+{
+  "name": "ts-builder-pattern-samples",
+  "version": "1.0.0",
+  "description": "Typescript Builder Pattern Samples",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "builder-pattern",
+    "design-pattern"
+  ],
+  "author": "Muhtalip Dede",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
